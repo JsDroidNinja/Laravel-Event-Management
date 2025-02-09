@@ -45,8 +45,8 @@ The Event Management API is a Laravel-based system for managing events, users, a
 - **Get All Users**
   - `GET /api/users`
   - Query Parameters:
-	events (boolean, optional): If true, returns the event list for the user.
-	user_id (integer, optional): If provided, returns details of a single user with or without events based on the events parameter.
+  - events (boolean, optional): If true, returns the event list for the user.
+  - user_id (integer, optional): If provided, returns details of a single user with or without events based on the events parameter.
 - **Create User**
   - `POST /api/users`
   - Body:
